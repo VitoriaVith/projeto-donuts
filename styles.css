@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    font-family: "Anton", sans-serif;  /*peguei a fonte do google*/
+    width: 90%;
+    margin: 0 auto;  /*centralizei conteudo */
+}
+
+header,
+h2,
+h3 {
+    color: #dd6c72;
+
+}
+
+
+ul {
+    list-style: none;
+    /* tirar pontos da lista */
+}
+
+.lista-donuts { 
+    display: flex;
+
+}
+
+.itens { 
+    background: #fbdcdd;
+    padding: 15px;
+
+
+}
+
+.itens img {
+    width: 400px;
+    /*largura */
+    height: 400px;
+    /*altura */
+
+}
+
+main img {
+    width: 80%;
+    /*largura */
+    height: 500px;
+    /*altura */
+
+}
+
+li p {  /*preço e colocar no  centro */
+    color: #dd6c72;  
+    text-align: center;
+}
